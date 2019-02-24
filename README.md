@@ -1,1 +1,1 @@
-# flask_rest_boilerplate
+# RESTFul APL Boilerplate
