@@ -9,7 +9,7 @@ DEBUG = os.environ.get('DEBUG') == 'True'
 SECRET_KEY = 'r9PF/D1xlZR0L`o7q*p0xF1is7BCjt}y{Zs:+hC}S4rfD9++6sd{%%Bq|!Kq'
 
 SQLALCHEMY_BINDS = {
-    'default': 'mysql+mysqldb://root:mysql@127.0.0.1:3306/flask_rest_boilerplate',
+    'default': 'mysql+pymysql://root:mysql@127.0.0.1:3306/flask_rest_boilerplate',
 }
 
 if __name__ == '__main__':

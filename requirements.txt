@@ -4,3 +4,4 @@ flask-migrate
 flask-script
 flask-restplus
 pytest
+PyMySQL

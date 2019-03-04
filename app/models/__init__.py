@@ -7,6 +7,7 @@ migrate = Migrate(db=db)
 
 
 def init_db(app, **kwargs):
+    db.app = app
     db.init_app(app)
     migrate.init_app(app)
     manager = Manager(app)

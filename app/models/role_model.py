@@ -3,7 +3,7 @@ from app.models import db, BaseModel
 
 class RoleModel(BaseModel):
     """User's role"""
-    __tablename__ = 'role'
+    __tablename__ = 'core_role'
     __bind_key__ = 'default'
 
     id = db.Column(db.Integer, primary_key=True)
