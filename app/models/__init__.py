@@ -13,7 +13,7 @@ def init_db(app, **kwargs):
     manager = Manager(app)
     manager.add_command('db', MigrateCommand)
 
-    from app.models.rolemodel import RoleModel
+    from app.models.role_model import RoleModel
 
 
 class BaseModel(db.Model):
