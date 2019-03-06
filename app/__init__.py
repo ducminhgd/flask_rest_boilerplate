@@ -2,7 +2,7 @@ import settings
 
 from flask import Flask
 from flask_restplus import Api
-from api.role import ns
+from app.api.role import ns
 
 
 def create_app():
